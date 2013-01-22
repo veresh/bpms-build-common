@@ -1,6 +1,6 @@
 BPMS Common Build
 =================
-This module is reponsible of installing common dependencies.rb as an artifact.
+This module is reponsible of installing common dependencies.rb as an artifact avoiding each module to have it's own dependency file and inturn using same set of libraries across Intalio modules.
 
 All modules should load dependencies from this module instead of loading thier specific dependencies.rb.
 
@@ -8,9 +8,9 @@ This implementation is done in K2 release.
 
 Steps:
 
-1. Checkout the current branch of this module.
-2. Find all the files in the module where dependencies.rb is included
-3. Replace the line where dependencies.rb  is included in component modules with the following lines
+- Checkout the current branch of this module.
+- Find all the files in the module where dependencies.rb is included
+- Replace the line where dependencies.rb  is included in component modules with the following lines
 
 <pre>
 <code>
