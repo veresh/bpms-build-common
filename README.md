@@ -1,4 +1,4 @@
-bpms-build-common
+BPMS Common Build
 =================
 This module is reponsible of installing common dependencies.rb as an artifact.
 
