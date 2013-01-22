@@ -22,7 +22,9 @@ end
 load DEPENDENCIES
 </code>
 </pre>
-Jira: http://jira.intalio.com/browse/BPMS-994
+ 
+<p> <a href="http://jira.intalio.com/browse/BPMS-994" title="JIRA">
+JIRA can be found here</a> </p>
 
 This module is currently tested with Tempo component. 
 
